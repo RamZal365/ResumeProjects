@@ -1,0 +1,13 @@
+Para compilar hay que ejecutar:
+
+./start.sh
+
+Luego hay que definir el CLASSPATH:
+
+export CLASSPATH=".:../lib/AIMA.jar:../lib/Azamon.jar"
+
+Después para probar valores es:
+
+java Main -p [Number of packages] -o [Weight ratio] -s [Seed] -i [Initial state algorithm (0/1)] -h [Heuristic Function (0/1)]
+
+Por defecto al hacer java Main, los parametros son -p 100 -o 1.2 -s 1234 -i 1 -h 0
